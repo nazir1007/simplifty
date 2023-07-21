@@ -27,8 +27,7 @@ body {
 }
 
 #manage {
-margin-bottom: 100p;
-
+margin-bottom: 100px;
 }
 
 #users {
@@ -82,9 +81,12 @@ thead th.center {
     color: white;    
 }
 
+tr{  
+    border: 1px solid;
+}
+
 table th, table td {
-    border: 1px solid #ccc;
-    background:white;
+    background: white;
     padding: 8px;
     width: 20px;
     text-align: center;
@@ -96,3 +98,17 @@ table th {
     background: rgb(202, 161, 57);
     color: white;
 }
+
+table td:nth-child(2), 
+table td:nth-child(4), 
+table td:nth-child(6), 
+table td:nth-child(8)  {
+    background: #f1f1f1ff; 
+}
+
+.righttick {
+    width: 45px;
+    height: 20px;
+    display: inline-block;
+}
+
