@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section {
+    width: 15%;
+    background-color: white;
+    padding: 20px;
+}
+
+.logo {
+   margin-left: 20px;
+    width: 130px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.dropdown {
+    margin-top: 20px;
+}
+
+#manage {
+margin-bottom: 100p;
+
+}
+
+#users {
+    margin-bottom: 75px;
+}
+
+#engagements {
+    margin-bottom: 75px;
+}
+
+.dropdown select {
+    border: none;
+    width: 100%;
+    padding: 8px;
+}
+
+.right-section {
+    width: 85%;
+    background-color: #f1f1f1ff;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+.user {
+    width:10px;
+    height:15px;
+}
+
+.user-name {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#users1 {
+    border: none;
+}
+
+table {
+    width: 98%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead th.center {
+    background: rgb(175, 136, 36);
+    color: white;    
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    background:white;
+    padding: 8px;
+    width: 20px;
+    text-align: center;
+    font-size:15px;
+}
+
+table th {
+    font-size: 13px;
+    background: rgb(202, 161, 57);
+    color: white;
+}
